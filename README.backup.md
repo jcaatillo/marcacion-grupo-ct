@@ -1,2 +1,0 @@
-# marcacion-grupo-ct
-
