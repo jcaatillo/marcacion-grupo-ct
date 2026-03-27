@@ -1,0 +1,192 @@
+═════════════════════════════════════════════════════════════════════════════
+        📤 DOCUMENTOS EXPORTABLES - PARA COMPARTIR CON OTRAS IAs
+═════════════════════════════════════════════════════════════════════════════
+
+PROPÓSITO:
+  Estos documentos describen EXACTAMENTE qué habilidades tiene Claude
+  para que otras IAs (u otros sistemas) sepan cómo hacer pedidos claros.
+
+═════════════════════════════════════════════════════════════════════════════
+
+📋 DOCUMENTOS DISPONIBLES:
+
+1. CLAUDE_CAPABILITIES_FOR_AI.md (50KB)
+   ├─ Formato: Markdown (legible para humanos)
+   ├─ Contenido: Descripción completa de cada habilidad
+   ├─ Estructura: Secciones por tipo de skill
+   ├─ Incluye: Prompts exactos, ejemplos reales, casos de uso
+   ├─ Mejor para: Lectura humana, referencia general
+   └─ Acción: Compartir con personas que coordinen con Claude
+
+2. CLAUDE_SKILLS.json (45KB)
+   ├─ Formato: JSON (máquina-legible)
+   ├─ Contenido: Datos estructurados de todas las habilidades
+   ├─ Estructura: Nested objects con metadata
+   ├─ Incluye: Triggers, inputs, outputs, métricas
+   ├─ Mejor para: APIs, parsers, sistemas automatizados
+   └─ Acción: Usar en integraciones programáticas
+
+3. CLAUDE_SKILLS.yaml (40KB)
+   ├─ Formato: YAML (fácil de leer y parsear)
+   ├─ Contenido: Información estructurada de skills
+   ├─ Estructura: Hierarchical, human-friendly
+   ├─ Incluye: Todas las habilidades, triggers, ejemplos
+   ├─ Mejor para: Sistemas de configuración, documentación
+   └─ Acción: Uso en CI/CD, configuración de herramientas
+
+═════════════════════════════════════════════════════════════════════════════
+
+✅ CUÁNDO USAR CADA FORMATO:
+
+┌─────────────────────────────────────────────────────────────────────┐
+│                                                                     │
+│ ¿Otra IA va a leer el documento?                                   │
+│  └─ CLAUDE_CAPABILITIES_FOR_AI.md (Markdown)                       │
+│                                                                     │
+│ ¿Voy a parsear con código/API?                                     │
+│  └─ CLAUDE_SKILLS.json (JSON)                                      │
+│                                                                     │
+│ ¿Voy a usar en configuración/CI-CD?                                │
+│  └─ CLAUDE_SKILLS.yaml (YAML)                                      │
+│                                                                     │
+│ ¿Necesito formato universal?                                       │
+│  └─ Compartir los 3 (cada sistema elige)                           │
+│                                                                     │
+└─────────────────────────────────────────────────────────────────────┘
+
+═════════════════════════════════════════════════════════════════════════════
+
+🎯 CÓMO USAR ESTOS DOCUMENTOS:
+
+Para OTRA IA:
+  1. Envía CLAUDE_CAPABILITIES_FOR_AI.md
+  2. Dile: "Usa este documento para entender mis habilidades"
+  3. Cuando te pida algo, sabrá exactamente el formato esperado
+
+Para SISTEMAS AUTOMATIZADOS:
+  1. Parsea CLAUDE_SKILLS.json o CLAUDE_SKILLS.yaml
+  2. Lee la sección "usage_guidelines"
+  3. Construye requests automáticos basados en los templates
+
+Para DOCUMENTACIÓN GENERAL:
+  1. Usa CLAUDE_CAPABILITIES_FOR_AI.md como referencia
+  2. Es auto-suficiente (no necesita otros docs)
+  3. Contiene ejemplos reales, prompts, casos de uso
+
+═════════════════════════════════════════════════════════════════════════════
+
+📊 INFORMACIÓN CLAVE EN CADA DOCUMENTO:
+
+CLAUDE_CAPABILITIES_FOR_AI.md:
+  ✓ 14 skills descritos en detalle
+  ✓ Ejemplos reales para marcacion-grupo-ct
+  ✓ Prompt templates copy-paste
+  ✓ Limitaciones y restricciones
+  ✓ Métricas de eficiencia
+  ✓ Tips para IAs coordinando con Claude
+
+CLAUDE_SKILLS.json:
+  ✓ Metadata del proyecto
+  ✓ Stack information
+  ✓ Core capabilities
+  ✓ 14 skills con triggers e inputs
+  ✓ Limitations
+  ✓ Efficiency metrics
+  ✓ Usage guidelines
+
+CLAUDE_SKILLS.yaml:
+  ✓ Mismo contenido que JSON
+  ✓ Formato más legible para humanos
+  ✓ Mejor para configuración
+  ✓ Fácil de comentar
+  ✓ Compatible con sistemas YAML
+
+═════════════════════════════════════════════════════════════════════════════
+
+🚀 PRÓXIMOS PASOS:
+
+Opción A: COMPARTIR CON UNA IA
+  1. Copia el contenido de CLAUDE_CAPABILITIES_FOR_AI.md
+  2. Pégalo en la conversación con otra IA
+  3. Pídele que lo lea y lo entienda
+  4. Luego pídele que te envíe instrucciones claras para Claude
+
+Opción B: USAR EN SISTEMA AUTOMATIZADO
+  1. Parsea CLAUDE_SKILLS.json
+  2. Extrae los triggers, inputs, outputs
+  3. Construye requests automáticos basados en templates
+  4. Envía a Claude con formato exacto
+
+Opción C: DOCUMENTACIÓN COMPARTIDA
+  1. Guarda los 3 archivos en un repositorio compartido
+  2. Comparte acceso con tu equipo
+  3. Úsalos como referencia oficial de qué puede hacer Claude
+
+═════════════════════════════════════════════════════════════════════════════
+
+💡 PRO TIPS:
+
+1. Los tres formatos tienen EXACTAMENTE la misma información
+   → Elige según tu caso de uso
+
+2. Todos incluyen los 14 skills y cómo triggearlos
+   → No hay información adicional en uno u otro
+
+3. Los ejemplos de prompts son idénticos en todos
+   → Puedes copiar desde cualquier formato
+
+4. YAML es más "humano-friendly" que JSON
+   → Mejor para review y comentarios
+
+5. JSON es mejor para APIs y parsing automático
+   → Mejor para integración programática
+
+═════════════════════════════════════════════════════════════════════════════
+
+📝 EJEMPLO DE USO:
+
+Compartir con otra IA:
+  ---
+  Aquí está la documentación de las habilidades de Claude.
+  Léela para entender qué puede hacer.
+  
+  [PEGA CONTENIDO DE CLAUDE_CAPABILITIES_FOR_AI.md]
+  
+  Ahora entiende esto:
+  - Tiene 14 skills activos
+  - code-review se triggea con /engineering:code-review
+  - Espera inputs en formato específico
+  - Devuelve outputs estructurados
+  
+  Cuando me pidas ayuda para Claude, usa los templates
+  de prompts que están en el documento.
+  ---
+
+═════════════════════════════════════════════════════════════════════════════
+
+📋 RESUMEN FINAL:
+
+Documentos Exportables:  3 (MD + JSON + YAML)
+Información Idéntica:    Sí, en todos
+Mejor para IA:           CLAUDE_CAPABILITIES_FOR_AI.md
+Mejor para APIs:         CLAUDE_SKILLS.json
+Mejor para Config:       CLAUDE_SKILLS.yaml
+Tamaño Total:            ~135KB
+Skills Documentados:     14
+Ejemplos Incluidos:      Sí, para cada skill
+Prompts Template:        Sí, exactos
+
+═════════════════════════════════════════════════════════════════════════════
+
+¿QUÉ HACER AHORA?
+
+1. Elige el formato que usarás (MD / JSON / YAML)
+2. Cópialo completo
+3. Comparte con:
+   - Otra IA que coordine trabajo
+   - Tu equipo como documentación oficial
+   - Sistema automatizado que haga requests
+
+¡Los archivos están listos para compartir! 🚀
+
+═════════════════════════════════════════════════════════════════════════════

@@ -1,0 +1,210 @@
+╔════════════════════════════════════════════════════════════════════════════════╗
+║                   📊 REPORTE DE HABILIDADES DE CLAUDE                           ║
+║                         marcacion-grupo-ct v0.2.0                               ║
+║                              2026-03-26                                         ║
+╚════════════════════════════════════════════════════════════════════════════════╝
+
+┌─ HABILIDADES INSTALADAS ─────────────────────────────────────────────────────┐
+│                                                                               │
+│  📄 DOCUMENTOS (4)                                                            │
+│  ├─ ✅ docx - Documentos Word                                                 │
+│  ├─ ✅ xlsx - Spreadsheets & Análisis                                         │
+│  ├─ ✅ pdf - Procesamiento de PDFs                                            │
+│  └─ ✅ pptx - Presentaciones                                                  │
+│                                                                               │
+│  🔧 INGENIERÍA (10)                                                           │
+│  ├─ ✅ code-review - Revisión de código                                       │
+│  ├─ ✅ debug - Debugging estructurado                                         │
+│  ├─ ✅ system-design - Diseño de arquitectura                                │
+│  ├─ ✅ documentation - Documentación técnica                                  │
+│  ├─ ✅ deploy-checklist - Pre-deploy verification                            │
+│  ├─ ✅ architecture - ADRs y decisiones                                       │
+│  ├─ ✅ incident-response - Manejo de incidentes                              │
+│  ├─ ✅ standup - Resúmenes diarios                                            │
+│  ├─ ✅ tech-debt - Auditoría de deuda técnica                                │
+│  └─ ✅ testing-strategy - Estrategias de testing                             │
+│                                                                               │
+│  ⚙️  AUTOMATIZACIÓN (2)                                                       │
+│  ├─ ✅ schedule - Tareas programadas                                          │
+│  └─ ✅ skill-creator - Crear/optimizar skills                                │
+│                                                                               │
+│  🧩 PLUGINS (2)                                                               │
+│  ├─ ✅ cowork-plugin-customizer - Customizar plugins                         │
+│  └─ ✅ cowork-plugin-creator - Crear plugins                                 │
+│                                                                               │
+└─────────────────────────────────────────────────────────────────────────────┘
+
+┌─ TOP 5 HABILIDADES MÁS USADAS ──────────────────────────────────────────────┐
+│                                                                               │
+│  1️⃣  CODE-REVIEW                                                              │
+│     Frecuencia: 3-4x/semana                                                  │
+│     Ahorro: ~30 min por uso                                                  │
+│     Uso: Antes de mergear PR                                                 │
+│     Template: PROMPTS_OPTIMIZADOS.md #1                                      │
+│                                                                               │
+│  2️⃣  DEBUG                                                                    │
+│     Frecuencia: 2-3x/semana                                                  │
+│     Ahorro: ~45 min por uso                                                  │
+│     Uso: Cuando hay un bug                                                   │
+│     Template: PROMPTS_OPTIMIZADOS.md #2                                      │
+│                                                                               │
+│  3️⃣  SYSTEM-DESIGN                                                            │
+│     Frecuencia: 1-2x/semana                                                  │
+│     Ahorro: ~2 horas por uso                                                 │
+│     Uso: Planificar features nuevas                                          │
+│     Template: PROMPTS_OPTIMIZADOS.md #3                                      │
+│                                                                               │
+│  4️⃣  DOCUMENTATION                                                            │
+│     Frecuencia: 1-2x/semana                                                  │
+│     Ahorro: ~1 hora por uso                                                  │
+│     Uso: Documentar decisiones                                               │
+│     Template: PROMPTS_OPTIMIZADOS.md #4                                      │
+│                                                                               │
+│  5️⃣  DEPLOY-CHECKLIST                                                         │
+│     Frecuencia: 2x/semana                                                    │
+│     Ahorro: ~15 min por uso                                                  │
+│     Uso: Pre-deploy verification                                             │
+│     Template: PROMPTS_OPTIMIZADOS.md #5                                      │
+│                                                                               │
+└─────────────────────────────────────────────────────────────────────────────┘
+
+┌─ NUEVAS SKILLS PROPUESTAS ──────────────────────────────────────────────────┐
+│                                                                               │
+│  🆕 SUPABASE-OPTIMIZER (PRIORIDAD: ⚠️  ALTA)                                  │
+│     ├─ Auditar queries, RPCs, índices, RLS                                   │
+│     ├─ Frecuencia: 3-4x/semana                                               │
+│     ├─ Ahorro: ~25 min por uso                                               │
+│     ├─ Tiempo setup: 30 min                                                  │
+│     └─ Detalles: NUEVAS_SKILLS_PROPUESTAS.md #1                              │
+│                                                                               │
+│  🆕 NEXTJS-REFACTOR-STUDIO (PRIORIDAD: 🟡 MEDIA)                              │
+│     ├─ Refactor Next.js 16 components                                        │
+│     ├─ RSC, Server Actions, props drilling                                   │
+│     ├─ Frecuencia: 2x/semana                                                 │
+│     ├─ Ahorro: ~45 min por uso                                               │
+│     ├─ Tiempo setup: 30 min                                                  │
+│     └─ Detalles: NUEVAS_SKILLS_PROPUESTAS.md #2                              │
+│                                                                               │
+│  🆕 SUPABASE-RLS-TESTER (PRIORIDAD: ⚠️  MEDIA-ALTA)                           │
+│     ├─ Testing strategies para RLS + RPCs                                    │
+│     ├─ Test case generation                                                  │
+│     ├─ Frecuencia: 2-3x/semana                                               │
+│     ├─ Ahorro: ~35 min por uso                                               │
+│     ├─ Tiempo setup: 30 min                                                  │
+│     └─ Detalles: NUEVAS_SKILLS_PROPUESTAS.md #3                              │
+│                                                                               │
+└─────────────────────────────────────────────────────────────────────────────┘
+
+┌─ DOCUMENTOS GENERADOS ──────────────────────────────────────────────────────┐
+│                                                                               │
+│  📋 REPORTE_HABILIDADES_CLAUDE.md                                            │
+│     ├─ Inventario completo de skills                                         │
+│     ├─ Análisis de alineación con tu perfil                                  │
+│     ├─ Brechas identificadas                                                 │
+│     ├─ Prompts exactos para cada habilidad                                   │
+│     └─ Tiempo lectura: 5-10 min                                              │
+│                                                                               │
+│  📖 PROMPTS_OPTIMIZADOS.md                                                   │
+│     ├─ Templates listos para copiar/pegar                                    │
+│     ├─ Ejemplos reales para tu proyecto                                      │
+│     ├─ Quick reference table                                                 │
+│     ├─ Cómo pedir ayuda correctamente                                        │
+│     └─ Tiempo lectura: 10 min (referencia)                                   │
+│                                                                               │
+│  🚀 NUEVAS_SKILLS_PROPUESTAS.md                                              │
+│     ├─ Detalles técnicos de 3 nuevas skills                                  │
+│     ├─ Estructura, prompts, triggers                                         │
+│     ├─ Ejemplos completos de ejecución                                       │
+│     ├─ Código de test, configuración CI/CD                                   │
+│     └─ Tiempo lectura: 15-20 min (si interesa)                               │
+│                                                                               │
+│  ⚡ README_HABILIDADES.md                                                    │
+│     ├─ Guía rápida de inicio                                                 │
+│     ├─ Mapa mental: cuándo usar cada skill                                   │
+│     ├─ Workflow óptimo                                                       │
+│     ├─ Pro tips y checklist                                                  │
+│     └─ Tiempo lectura: 5-10 min                                              │
+│                                                                               │
+│  📊 RESUMEN_VISUAL.txt                                                       │
+│     └─ Este archivo                                                          │
+│                                                                               │
+└─────────────────────────────────────────────────────────────────────────────┘
+
+┌─ AHORRO DE TIEMPO ──────────────────────────────────────────────────────────┐
+│                                                                               │
+│  POR USO (promedio):                                                         │
+│  • code-review:       30 min ahorrados                                       │
+│  • debug:            45 min ahorrados                                        │
+│  • system-design:     2 horas ahorradas                                      │
+│  • documentation:     1 hora ahorrada                                        │
+│  • deploy-checklist:  15 min ahorrados                                       │
+│                                                                               │
+│  POR SEMANA:                                                                 │
+│  • code-review (3x):      1.5 horas                                          │
+│  • debug (2.5x):          1.9 horas                                          │
+│  • system-design (1.5x):  3 horas                                            │
+│  • documentation (1.5x):  1.5 horas                                          │
+│  • deploy-checklist (2x): 0.5 horas                                          │
+│  ─────────────────────────────────                                           │
+│  TOTAL:                   ~8.4 horas/semana = +1 día completo                │
+│                                                                               │
+│  POR AÑO:                                                                    │
+│  • 8.4 horas/semana × 52 semanas = ~437 horas/año                          │
+│  • Equivalente a: 10-11 semanas laborales extra                              │
+│                                                                               │
+└─────────────────────────────────────────────────────────────────────────────┘
+
+┌─ PRÓXIMOS PASOS ────────────────────────────────────────────────────────────┐
+│                                                                               │
+│  HOY:                                                                        │
+│  ✓ Leer REPORTE_HABILIDADES_CLAUDE.md (10 min)                               │
+│  ✓ Guardar PROMPTS_OPTIMIZADOS.md como referencia                            │
+│                                                                               │
+│  ESTA SEMANA:                                                                │
+│  □ Usar /engineering:code-review antes de siguiente PR                       │
+│  □ Usar /engineering:debug si encuentras un bug                              │
+│  □ Usar /engineering:documentation para una decisión                         │
+│                                                                               │
+│  PRÓXIMAS SEMANAS:                                                           │
+│  □ Leer NUEVAS_SKILLS_PROPUESTAS.md                                          │
+│  □ Decidir si crear supabase-optimizer (RECOMENDADO)                         │
+│  □ Considerar nextjs-refactor-studio y supabase-rls-tester                   │
+│                                                                               │
+└─────────────────────────────────────────────────────────────────────────────┘
+
+┌─ INFORMACIÓN CLAVE ─────────────────────────────────────────────────────────┐
+│                                                                               │
+│  TU STACK:                                                                   │
+│  • Next.js 16 App Router                                                     │
+│  • React 19                                                                  │
+│  • TypeScript 5                                                              │
+│  • Supabase PostgreSQL 17                                                    │
+│  • Vercel (auto-deploy on main)                                              │
+│  • 10k+ usuarios activos                                                     │
+│                                                                               │
+│  SUPABASE PROJECT:                                                           │
+│  • ID: ofeuzkwjhmfsazqfyutu                                                  │
+│  • v0.2.0 con optimizaciones aplicadas                                       │
+│  • 5 índices PostgreSQL, 2 RPCs optimizadas                                  │
+│                                                                               │
+│  TUS PREFERENCIAS:                                                           │
+│  • Apply changes directly (no pedir permiso cada paso)                       │
+│  • Challenging intellectual companion                                        │
+│  • Explicaciones step-by-step detalladas                                     │
+│                                                                               │
+└─────────────────────────────────────────────────────────────────────────────┘
+
+╔════════════════════════════════════════════════════════════════════════════════╗
+║  ¿LISTO PARA EMPEZAR?                                                         ║
+║                                                                                ║
+║  1. Abre: PROMPTS_OPTIMIZADOS.md                                              ║
+║  2. Elige un prompt template                                                  ║
+║  3. Cópyalo y modifícalo según tu necesidad                                   ║
+║  4. ¡Pruébalo! Ahora                                                          ║
+║                                                                                ║
+║  Ejemplo:                                                                     ║
+║  @Claude /engineering:code-review                                            ║
+║  [pega aquí tu código a revisar]                                             ║
+║                                                                                ║
+║  ¡Vamos a optimizar tu flujo de trabajo! 🚀                                    ║
+╚════════════════════════════════════════════════════════════════════════════════╝
