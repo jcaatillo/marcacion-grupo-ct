@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(claude mcp *)",
+      "Skill(update-config)",
+      "Bash(npm run *)",
+      "Bash(grep -v \"^--$\")",
+      "Bash(grep -A 6 \"MonitorGrid\\\\|monitor/page\\\\|monitor\\\\\\\\\\\\\\\\page\")",
+      "Bash(xxd)",
+      "Bash(python3 *)",
+      "Bash(node *)"
+    ]
+  }
+}
